@@ -1,10 +1,10 @@
 import { json } from "@remix-run/cloudflare";
 import type { KVNamespace } from "@cloudflare/workers-types";
 import { useLoaderData } from "@remix-run/react";
-import * as Sentry from "@sentry/react";
+import * as Sentry from "@sentry/node";
 
 Sentry.init({
-  dsn: "https://6f1e9f8dd238407185b0ecea0e2bbb51@o1218253.ingest.sentry.io/6360265",
+  dsn: "https://975529a39d8547cb8baec8d5f782c425@o1218253.ingest.sentry.io/6360278",
 
   // Set tracesSampleRate to 1.0 to capture 100%
   // of transactions for performance monitoring.

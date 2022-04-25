@@ -19,6 +19,7 @@ export const action = async ({ request }) => {
     await DATAENTRY.put(data.field, data.value);
     return json({ message: "ok" });
   } catch (err) {
+    console.error(err)
     Sentry.captureException(err);
     throw err;
   }

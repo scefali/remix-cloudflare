@@ -3,6 +3,14 @@ import type { KVNamespace } from "@cloudflare/workers-types";
 import { useLoaderData } from "@remix-run/react";
 import * as Sentry from "@sentry/react";
 
+Sentry.init({
+  dsn: "https://6f1e9f8dd238407185b0ecea0e2bbb51@o1218253.ingest.sentry.io/6360265",
+
+  // Set tracesSampleRate to 1.0 to capture 100%
+  // of transactions for performance monitoring.
+  // We recommend adjusting this value in production
+  tracesSampleRate: 1.0,
+});
 // declare const remixcloudflare: KVNamespace;
 
 export const action = async ({ request }) => {

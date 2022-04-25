@@ -6,5 +6,5 @@ type = "javascript"
 workers_dev = true
 
 kv_namespaces = [
-  {binding = "remixcloudflare", id = "a1713ffb5bc4437b9236888ee8688d09"},
+  {binding = "DATAENTRY", id = "a1713ffb5bc4437b9236888ee8688d09"},
 ]

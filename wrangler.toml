@@ -6,5 +6,5 @@ type = "javascript"
 workers_dev = true
 
 kv_namespaces = [
-  {binding = "DATAENTRY", id = "a1713ffb5bc4437b9236888ee8688d09"},
+  {binding = "DATAENTRY", id = "d7b843eb4107425abcf7fd1918bcd3bb"},
 ]
